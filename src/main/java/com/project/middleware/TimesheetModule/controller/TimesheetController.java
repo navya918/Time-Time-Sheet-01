@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://backend-01-a0frapgndphphvhb.canadacentral-01.azurewebsites.net")
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/api/timesheets")
 public class TimesheetController {
 
